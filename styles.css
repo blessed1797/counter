@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(97, 33, 33);
+    
+    
+}
+
+#span{
+  font-size:5rem ;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    line-height: 1.25;
+    text-transform: capitalize;
+    color: aqua;
+    
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+
+button{  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 700;
+  transition: var(--transition);
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+
+}
